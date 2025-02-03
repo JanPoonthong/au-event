@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
             AUEventTheme {
                 val items = listOf(
                     BottomNavigationItem("Home", Icons.Filled.Home, Icons.Outlined.Home),
-                    BottomNavigationItem("Create", Icons.Filled.Add, Icons.Outlined.Add),
+                    BottomNavigationItem("", Icons.Filled.Add, Icons.Outlined.Add),
                     BottomNavigationItem("Event", Icons.Filled.DateRange, Icons.Outlined.DateRange)
                 )
                 var selectedItemIndex by rememberSaveable { mutableIntStateOf(0) }
